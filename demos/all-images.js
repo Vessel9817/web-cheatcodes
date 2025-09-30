@@ -2,9 +2,6 @@ const gallery = /** @type {Element} */ (document.getElementById('gallery'));
 const fullimage = /** @type {Element} */ (document.getElementById('fullimage'));
 const display = /** @type {Element} */ (document.getElementById('display'));
 const images = gallery.querySelectorAll('a');
-let now = 0;
-let nowImage = images[now];
-let nowImageAlt = nowImage.getAttribute('href');
 
 for (const img of images) {
     img.addEventListener('click', function (e) {
