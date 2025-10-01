@@ -20,6 +20,12 @@ summary {
 nav {
     display: flex;
     justify-content: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: var(--navbg);
+    border-bottom: 1px solid var(--navborder);
+    padding-bottom: 1em;
 }
 nav ul {
     justify-content: center;
@@ -44,13 +50,4 @@ footer {
 }
 footer a {
     color:var(--footerlink);
-}
-
-nav {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    background: var(--navbg);
-    border-bottom: 1px solid var(--navborder);
-    padding-bottom: 1em;
 }
