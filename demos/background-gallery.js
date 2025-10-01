@@ -1,4 +1,4 @@
-const gallery = /** @type {Element} */ (document.getElementById('gallery'));
+const gallery = /** @type {HTMLElement} */ (document.getElementById('gallery'));
 const imgs = [
     ['img/husky-cuddles-500px.jpg', 'Husky being cuddled'],
     ['img/socke-500px.jpg', 'Dog'],

@@ -1,6 +1,6 @@
-const gallery = /** @type {Element} */ (document.getElementById('gallery'));
-const fullimage = /** @type {Element} */ (document.getElementById('fullimage'));
-const display = /** @type {Element} */ (document.getElementById('display'));
+const gallery = /** @type {HTMLElement} */ (document.getElementById('gallery'));
+const fullimage = /** @type {HTMLElement} */ (document.getElementById('fullimage'));
+const display = /** @type {HTMLElement} */ (document.getElementById('display'));
 const images = gallery.querySelectorAll('a');
 
 for (const img of images) {
