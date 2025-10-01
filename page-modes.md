@@ -18,7 +18,7 @@ Granted, these are much more useful for testers to see how a product works in th
 1. Scroll down to the different mode emulation dropdown and turn them off or on
    ![Different mode switches in the Rendering tool](screencasts/modes-dropdowns.png)
 
-You can see this in action in the following screencast and you can try it on the [page modes demo](https://codepo8.github.io/web-cheatcodes/demos/modes.html) yourself.
+You can see this in action in the following screencast and you can try it on the [page modes demo](demos/modes.html) yourself.
 
 ![Showing the current page in different modes](screencasts/modes.gif)
 

@@ -2,7 +2,7 @@
 
 Some - let's say fringe content - sites on the web annoy users by adding redirections when you click on them before you can interact with any of the real content. Basically clicking anywhere will cause a new page to pop up. Some use a transparent overlay for that [which you can remove using the Elements tool](overlays.md) but others are sneakier.
 
-If you check the [unwanted redirect demo page](https://codepo8.github.io/web-cheatcodes/demos/redirect.html) using the Inspect tool you won't find an overlay.
+If you check the [unwanted redirect demo page](demos/redirect.html) using the Inspect tool you won't find an overlay.
 
 What developers do to achieve this is to define something called an [Event Handler](https://developer.mozilla.org/docs/Learn/JavaScript/Building_blocks/Events) on the document make it react to any click on it.
 

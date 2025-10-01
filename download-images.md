@@ -2,7 +2,7 @@
 
 Often you see a lot of images scattered around an annoying document or you come across a gallery of images and wonder how you could get a simple way to access these images.
 
-Take the [demo page containing an image gallery](https://codepo8.github.io/web-cheatcodes/demos/all-images.html) for example. You can click any of the smaller images to see a bigger version. This is still an easy gallery. Often you can even right-click and save images.
+Take the [demo page containing an image gallery](demos/all-images.html) for example. You can click any of the smaller images to see a bigger version. This is still an easy gallery. Often you can even right-click and save images.
 
 On sites like these you can use the [Network tool](https://docs.microsoft.com/microsoft-edge/devtools-guide-chromium/network/) to get access to all the images that are used in the document or even loaded in the background. The Network tool allows you to inspect any traffic that happens on the web product you're currently consuming. To access images in a convenient fashion, do this:
 

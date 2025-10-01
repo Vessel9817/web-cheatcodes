@@ -2,7 +2,7 @@
 
 Operating systems and browsers come with built-in tools to take screenshots. Often it is tricky though to only take a picture of what you want as there is a lot on the screen you don't want. And selecting a certain part of a document can be finicky.
 
-Take the [screenshot demo page](https://codepo8.github.io/web-cheatcodes/demos/screenshot.html) for example. I added a fake ad, useless "more" links and ensured that the bit you really want (the dog, of course) is something you need to scroll to.
+Take the [screenshot demo page](demos/screenshot.html) for example. I added a fake ad, useless "more" links and ensured that the bit you really want (the dog, of course) is something you need to scroll to.
 
 ![Screenshot of the demo page](screencasts/screenshot-demo.png)
 

@@ -37,4 +37,8 @@ Here are the tasks and how to do them with browser developer tools:
 - [Check the document in different modes](page-modes.md)
 - [Making timed buttons work without waiting](timed-buttons.md)
 
-Do you have some other task you'd like to know how to achieve it? Do you have a recipe you use yourself? Comment in an issue on the [GitHub Repository](https://github.com/codepo8/web-cheatcodes) of this or [ping me on Twitter](https://twitter.com/codepo8).
+Do you have some other task you'd like to know how to achieve it?
+Do you have a recipe you use yourself?
+Comment in an issue on the [GitHub Repository](https://github.com/Vessel9817/web-cheatcodes),
+or, if you have the skill set to do it yourself, make a pull request
+to have your own idea submitted.

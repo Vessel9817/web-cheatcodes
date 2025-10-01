@@ -8,7 +8,7 @@ Often the mobile version of a web site is much simpler and has fewer annoying po
 1. Select from a different emulated device
    ![Device list of emulation mode](screencasts/select-device.png)
 
-You can try this out and see the difference in [this mobile version demo page](https://codepo8.github.io/web-cheatcodes/demos/mobile-version.html). It is a multi step process to see (or download) an image in the normal version of the site.
+You can try this out and see the difference in [this mobile version demo page](demos/mobile-version.html). It is a multi step process to see (or download) an image in the normal version of the site.
 
 ![Desktop version of the gallery page](screencasts/desktop-version.gif)
 

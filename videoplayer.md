@@ -4,7 +4,7 @@ Every since the demise of Flash, using video on the web has become a lot easier.
 
 What is less OK is if a web site deliberately makes it harder to watch a video because they want to cover it with things that track your clicks or make you press buttons to fire up other functionality in the background.
 
-Take the [demo page of an annoying video embed](https://codepo8.github.io/web-cheatcodes/demos/video.html) for example. I've done my best to make it really annoying to see a video of a sleeping dog.
+Take the [demo page of an annoying video embed](demos/video.html) for example. I've done my best to make it really annoying to see a video of a sleeping dog.
 
 ![Annoying player covering the video](screencasts/dog-video.gif)
 

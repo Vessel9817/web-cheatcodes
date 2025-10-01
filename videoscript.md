@@ -4,7 +4,7 @@ The web is a wonderful thing, but often instead of accessing content, you have t
 
 In this video you will learn how to use the developer tools in your browser as "cheatcodes" for the web. You'll learn how to access the mobile version of web sites, download images and videos, remove overlays, re-enable context menus, remove redirects and fix more web annoyances.
 
-You can read all this up and try it out yourself on <https://codepo8.github.io/web-cheatcodes/>
+You can read all this up and try it out yourself on <>
 
 Learn more about devtools: <https://docs.microsoft.com/microsoft-edge/devtools-guide-chromium/overview>
 
