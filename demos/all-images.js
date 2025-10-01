@@ -1,0 +1,23 @@
+const gallery = /** @type {HTMLElement} */ (document.getElementById('gallery'));
+const fullimage = /** @type {HTMLElement} */ (
+    document.getElementById('fullimage')
+);
+const display = /** @type {HTMLElement} */ (document.getElementById('display'));
+const images = gallery.querySelectorAll('a');
+
+for (const img of images) {
+    img.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const src = this.getAttribute('href') ?? '';
+        const alt = this.getAttribute('alt') ?? '';
+
+        fullimage.setAttribute('src', src);
+        fullimage.setAttribute('alt', alt);
+    });
+}
+
+display.addEventListener('click', function (e) {
+    e.preventDefault();
+    fullimage.setAttribute('src', '');
+});

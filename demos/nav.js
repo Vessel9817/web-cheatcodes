@@ -1,22 +1,44 @@
+/**
+ * @typedef NavButton
+ * @property {string} url URL
+ * @property {string} title Title
+ */
+
+/** @type {NavButton[]} */
 let urls = [
-    {u:"background-gallery.html",t: "Bilder als Hintergrund"},
-    {u:"gallery.html",t: "Bilder im Dokument"},
-    {u:"image-overlay.html",t: "Originalbilder finden"},
-    {u:"video.html",t: "Einfachere Videos"}
+    {
+        url: 'background-gallery.html',
+        title: 'Bilder als Hintergrund'
+    },
+    {
+        url: 'gallery.html',
+        title: 'Bilder im Dokument'
+    },
+    {
+        url: 'image-overlay.html',
+        title: 'Originalbilder finden'
+    },
+    {
+        url: 'video.html',
+        title: 'Einfachere Videos'
+    }
 ];
 
 let current = document.location.href.split('/').pop();
-let nav = document.querySelector("nav ul");
-urls.forEach(u => {
-    let li = document.createElement("li");
-    if (u.u !== current) {
-        let a = document.createElement("a");
-        a.href = u.u;
-        a.textContent = u.t;
+let nav = /** @type {Element} */ (document.querySelector('nav ul'));
+
+urls.forEach((u) => {
+    let li = document.createElement('li');
+
+    if (u.url !== current) {
+        let a = document.createElement('a');
+
+        a.href = u.url;
+        a.textContent = u.title;
         li.appendChild(a);
     } else {
         li.classList.add('current');
-        li.textContent = u.t;
+        li.textContent = u.title;
     }
     nav.appendChild(li);
 });

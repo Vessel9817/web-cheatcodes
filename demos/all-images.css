@@ -1,0 +1,25 @@
+#gallery {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 2em;
+}
+#gallery img {
+    width: 20%;
+}
+#display {
+    position: fixed;
+    top: 8em;
+    left: 25%;
+    right: 1em;
+    bottom: 6em;
+}
+#display img[src^='img'] {
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+    display: block;
+}
+#display img {
+    display: none;
+}

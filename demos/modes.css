@@ -1,8 +1,8 @@
 :root {
     --background: whitesmoke;
-    --color:#333;
+    --color: #333;
     --menulink: darkblue;
-    --footerlink:darkgreen;
+    --footerlink: darkgreen;
     --border: #333;
     --navbg: #eee;
     --navborder: #666;
@@ -10,13 +10,13 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --background: #111;
-        --color:whitesmoke;
+        --color: whitesmoke;
         --menulink: skyblue;
-        --footerlink:green;
+        --footerlink: green;
         --border: white;
         --navbg: #222;
         --navborder: #ccc;
-        }
+    }
 }
 @media print {
     body::before {
@@ -30,7 +30,7 @@
         color: #000;
     }
     a::after {
-        content: " (" attr(href) ") ";
+        content: ' (' attr(href) ') ';
     }
     div {
         display: none;
