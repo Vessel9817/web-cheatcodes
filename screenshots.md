@@ -16,7 +16,7 @@ You can also choose to take a picture of the whole document, which automatically
 
 The first option could be tough to get right with elements that don't have much whitespace around them and the second option means you need to cut out what you need with another tool.
 
-There are two ways to use browser developer tools to create screenshots of just the thing you want. One is to select it and use the `node screenshot` option, the other to delete what you don't want. Let's start with the deletion trick which you can also use to [remove annoying overlays](overlays.md):
+There are two ways to use browser developer tools to create screenshots of just the thing you want. One is to select it and use the `node screenshot` option, the other to delete what you don't want. Let's start with the deletion trick which you can also use to [remove annoying overlays](overlays):
 
 1. [Open Developer Tools](https://docs.microsoft.com/microsoft-edge/devtools-guide-chromium/overview#open-devtools) by pressing F12.
 1. Use the [Inspect Tool](https://docs.microsoft.com/microsoft-edge/devtools-guide-chromium/css/inspect) by clicking the pointer icon to pick an element of the page
@@ -43,4 +43,4 @@ The other way to take a screenshot of what you want to have is to be more surgic
 
 The "Capture Node Screenshot" trick also works on videos that don't allow you to take screenshots like those on many streaming services.
 
-- [Back to list of all cheat codes](README.md)
+- [Back to list of all cheat codes](README)

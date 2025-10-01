@@ -20,6 +20,6 @@ You can see this in action on the demo page in the following recording:
 
 ![Recording of how to use the Network tool to download images](screencasts/images-network.gif)
 
-You can use the Network tool for a lot more things, for example to [get a simpler player control for videos](videoplayer.md).
+You can use the Network tool for a lot more things, for example to [get a simpler player control for videos](videoplayer).
 
-- [Back to list of all cheat codes](README.md)
+- [Back to list of all cheat codes](README)

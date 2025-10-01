@@ -1,6 +1,6 @@
 # Avoid unwanted redirects
 
-Some - let's say fringe content - sites on the web annoy users by adding redirections when you click on them before you can interact with any of the real content. Basically clicking anywhere will cause a new page to pop up. Some use a transparent overlay for that [which you can remove using the Elements tool](overlays.md) but others are sneakier.
+Some - let's say fringe content - sites on the web annoy users by adding redirections when you click on them before you can interact with any of the real content. Basically clicking anywhere will cause a new page to pop up. Some use a transparent overlay for that [which you can remove using the Elements tool](overlays) but others are sneakier.
 
 If you check the [unwanted redirect demo page](https://codepo8.github.io/web-cheatcodes/demos/redirect.html) using the Inspect tool you won't find an overlay.
 
@@ -21,4 +21,4 @@ You can see this in action here:
 
 Some of the more annoying web products also have `touch`, `keydown`, `keypress` and other events that react to user interaction you might have to remove.
 
-- [Back to list of all cheat codes](README.md)
+- [Back to list of all cheat codes](README)

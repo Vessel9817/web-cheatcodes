@@ -17,4 +17,4 @@ You can see it in action in this recording:
 
 ![Screencast showing how to make a timed button clickable](screencasts/button-enable.gif)
 
-- [Back to list of all cheat codes](README.md)
+- [Back to list of all cheat codes](README)

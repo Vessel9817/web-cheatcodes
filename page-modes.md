@@ -22,4 +22,4 @@ You can see this in action in the following screencast and you can try it on the
 
 ![Showing the current page in different modes](screencasts/modes.gif)
 
-- [Back to list of all cheat codes](README.md)
+- [Back to list of all cheat codes](README)

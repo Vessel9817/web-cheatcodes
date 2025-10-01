@@ -26,6 +26,6 @@ You can see this in action on the demo page in the following recording:
 
 ![Recording o how to use the Network tool to get a video with full browser controls](screencasts/video-new-tab.gif)
 
-You can use the Network tool for a lot more things, for example to [download images](download-images.md).
+You can use the Network tool for a lot more things, for example to [download images](download-images).
 
-- [Back to list of all cheat codes](README.md)
+- [Back to list of all cheat codes](README)

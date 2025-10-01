@@ -26,15 +26,15 @@ Another important reminder is that you are not doing anything illegal here nor c
 
 Here are the tasks and how to do them with browser developer tools:
 
-- [Remove annoying overlays and page elements](overlays.md)
-- [Take screenshots of web content](screenshots.md)
-- [Inspect the uninspectable](inspect-no-context.md)
-- [Get back the context menu](context-menu.md)
-- [Avoid unwanted redirects](remove-redirects.md)
-- [Get a simpler video player](videoplayer.md)
-- [Download images](download-images.md)
-- [Get the mobile version of the current document](mobile.md)
-- [Check the document in different modes](page-modes.md)
-- [Making timed buttons work without waiting](timed-buttons.md)
+- [Remove annoying overlays and page elements](overlays)
+- [Take screenshots of web content](screenshots)
+- [Inspect the uninspectable](inspect-no-context)
+- [Get back the context menu](context-menu)
+- [Avoid unwanted redirects](remove-redirects)
+- [Get a simpler video player](videoplayer)
+- [Download images](download-images)
+- [Get the mobile version of the current document](mobile)
+- [Check the document in different modes](page-modes)
+- [Making timed buttons work without waiting](timed-buttons)
 
 Do you have some other task you'd like to know how to achieve it? Do you have a recipe you use yourself? Comment in an issue on the [GitHub Repository](https://github.com/codepo8/web-cheatcodes) of this or [ping me on Twitter](https://twitter.com/codepo8).

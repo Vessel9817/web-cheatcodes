@@ -16,8 +16,8 @@ The mobile version simply shows all of them in a larger size allowing you to rig
 
 ![The Mobile version is much simpler](screencasts/mobile-version.gif)
 
-Often the mobile version of the site also has simpler video players. You can then right-click videos and select `save video as` or `show controls` to navigate the video. If you encounter really annoying video players, you can also try the [get a simpler video player trick](videoplayer.md).
+Often the mobile version of the site also has simpler video players. You can then right-click videos and select `save video as` or `show controls` to navigate the video. If you encounter really annoying video players, you can also try the [get a simpler video player trick](videoplayer).
 
 Another interesting feature of this mode is that you can [spoof a different geographical location](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/device-mode/#override-geolocation) but most sites will not fall for that and show you content specific to this locale. For that you'd need a VPN.
 
-- [Back to list of all cheat codes](README.md)
+- [Back to list of all cheat codes](README)

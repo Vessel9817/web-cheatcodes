@@ -19,4 +19,4 @@ Here you can see this in action:
 
 ![Screencast of removing the contextmenu event listener](screencasts/context-menu.gif)
 
-- [Back to list of all cheat codes](README.md)
+- [Back to list of all cheat codes](README)

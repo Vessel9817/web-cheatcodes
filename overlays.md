@@ -15,10 +15,10 @@ You can see it in action in this recording:
 
 ![Screencast showing how to remove the overlay](screencasts/remove-overlay.gif)
 
-This works with any element you don't want to have on the page, for example when you want to [create a screenshot](screenshots.md) and get rid of extra content. Or when you want to print a page but not the ads.
+This works with any element you don't want to have on the page, for example when you want to [create a screenshot](screenshots) and get rid of extra content. Or when you want to print a page but not the ads.
 
 You can try this on the [different modes demo page](https://codepo8.github.io/web-cheatcodes/page-modes.html) as shown in the following recording:
 
 ![Removing an annoying ad using the Inspect Tool](screencasts/remove-ad.gif)
 
-- [Back to list of all cheat codes](README.md)
+- [Back to list of all cheat codes](README)
