@@ -15,6 +15,14 @@ To remove event handlers and get back the context menu you need to:
 1. Click the triangle to expand the information
 1. Hit the remove button
 
+On Firefox-based browsers, this looks a bit different:
+
+1. Go to the Elements panel and select an element, the same as above
+1. Click the `event` button
+   ![The Event listeners tool of Elements showing a contextmenu event](screencasts/event-listeners-contextmenu-firefox.png)
+1. Click the triangle on the appropriate script to show the script source
+1. Uncheck the box next to the script, as also shown above, thereby disabling it
+
 Here you can see this in action:
 
 ![Screencast of removing the contextmenu event listener](screencasts/context-menu.gif)
