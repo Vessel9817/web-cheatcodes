@@ -1,19 +1,26 @@
+/**
+ * @typedef NavButton
+ * @property {string} url URL
+ * @property {string} title Title
+ */
+
+/** @type {NavButton[]} */
 let urls = [
     {
-        u: 'background-gallery.html',
-        t: 'Bilder als Hintergrund'
+        url: 'background-gallery.html',
+        title: 'Bilder als Hintergrund'
     },
     {
-        u: 'gallery.html',
-        t: 'Bilder im Dokument'
+        url: 'gallery.html',
+        title: 'Bilder im Dokument'
     },
     {
-        u: 'image-overlay.html',
-        t: 'Originalbilder finden'
+        url: 'image-overlay.html',
+        title: 'Originalbilder finden'
     },
     {
-        u: 'video.html',
-        t: 'Einfachere Videos'
+        url: 'video.html',
+        title: 'Einfachere Videos'
     }
 ];
 
@@ -23,15 +30,15 @@ let nav = /** @type {Element} */ (document.querySelector('nav ul'));
 urls.forEach((u) => {
     let li = document.createElement('li');
 
-    if (u.u !== current) {
+    if (u.url !== current) {
         let a = document.createElement('a');
 
-        a.href = u.u;
-        a.textContent = u.t;
+        a.href = u.url;
+        a.textContent = u.title;
         li.appendChild(a);
     } else {
         li.classList.add('current');
-        li.textContent = u.t;
+        li.textContent = u.title;
     }
     nav.appendChild(li);
 });
