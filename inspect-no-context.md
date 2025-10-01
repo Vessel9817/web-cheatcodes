@@ -12,4 +12,4 @@ The following recording shows that you can inspect the document even when the co
 
 ![Always open Developer tools and use the inspect tool to avoid annoying redirects](screencasts/inspecting-instead-of-context.gif)
 
-* [Back to list of all cheat codes](README.md)
+- [Back to list of all cheat codes](README.md)

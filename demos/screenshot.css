@@ -7,9 +7,8 @@
     vertical-align: middle;
     background: yellow;
     font-size: 3em;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
 }
-
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -32,5 +31,5 @@
     text-decoration: none;
     display: block;
     padding: 5px;
-    margin-bottom:.5em;
+    margin-bottom: 0.5em;
 }

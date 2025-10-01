@@ -1,83 +1,131 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cheat Codes for the web - Developer Tools for non-developers</title>
-    <link rel="stylesheet" href="modes.css">
-    <link rel="stylesheet" href="layout.css">
-    <link rel="stylesheet" href="mobile-version.css">
-</head>
-<body>
-    <h1>Cheat Codes for the web - Developer Tools for non-developers</h1>
-    <p>This is a demo site to try your browser developer tools skills.</p>
-    <p class="article"><a href="../mobile">Read the explanatory article</a></p>
-    <details>
-        <summary>More demo pages</summary>
-        <nav>
-            <ul id="menu">
-            </ul>
-        </nav>
-    </details>
-    <ul id="gallery">
-        <li>
-            <a class="full-link" href="img/husky-bed.jpg">
-                <img loading="lazy" src="img/smaller/thumb-husky-bed.jpg" alt="Husky in bed">
-            </a>
-        </li>
-        <li>
-            <a class="full-link" href="img/husky-cuddles.jpg">
-                <img loading="lazy" src="img/smaller/thumb-husky-cuddles.jpg" alt="Husky being cuddled">
-            </a>
-        </li>
-        <li>
-            <a class="full-link" href="img/larry-ball.jpg">
-                <img loading="lazy" src="img/smaller/thumb-larry-ball.jpg" alt="Cocker Spaniel with ball">
-            </a>
-        </li>
-        <li>
-            <a class="full-link" href="img/larry-kitchen.jpg">
-                <img loading="lazy" src="img/smaller/thumb-larry-kitchen.jpg" alt="Cocker Spaniel in Kitchen">
-            </a>
-        </li>
-        <li>
-            <a class="full-link" href="img/larry-raincoat.jpg">
-                <img loading="lazy" src="img/smaller/thumb-larry-raincoat.jpg" alt="Cocker Spaniel wearing Raincoat">
-            </a>
-        </li>
-        <li>
-            <a class="full-link" href="img/larry-sleeping-on-sofa.jpg">
-                <img loading="lazy" src="img/smaller/thumb-larry-sleeping-on-sofa.jpg" alt="Cocker Spaniel on sofa">
-            </a>
-        </li>
-        <li>
-            <a class="full-link" href="img/larry-sleeping.jpg">
-                <img loading="lazy" src="img/smaller/thumb-larry-sleeping.jpg" alt="Sleeping Cocker spaniel">
-            </a>
-        </li>
-        <li>
-            <a class="full-link" href="img/socke-looking.jpg">
-                <img loading="lazy" src="img/smaller/thumb-socke-looking.jpg" alt="Dog looking at camera">
-            </a>
-        </li>
-        <li>
-            <a class="full-link" href="img/socke-with-ball.jpg">
-                <img loading="lazy" src="img/smaller/thumb-socke-with-ball.jpg" alt="Dog with ball">
-            </a>
-        </li>
-        <li>
-            <a class="full-link" href="img/socke.jpg">
-                <img loading="lazy" src="img/smaller/thumb-socke.jpg" alt="Dog">
-            </a>
-        </li>
-    </ul>
-    <div id="display">
-        <img id="fullimage" alt="">
-    </div>
-    <footer>
-        <p>Written by <a href="https://christianheilmann.com">Chris Heilmann</a>, feedback welcome <a href="https://github.com/codepo8/web-cheatcodes">on GitHub</a>.</p>
-    </footer>
-    <script src="mobile-version.js"></script>
-    <script src="nav.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+            Cheat Codes for the web - Developer Tools for non-developers
+        </title>
+        <link rel="stylesheet" href="modes.css" />
+        <link rel="stylesheet" href="layout.css" />
+        <link rel="stylesheet" href="mobile-version.css" />
+    </head>
+    <body>
+        <h1>Cheat Codes for the web - Developer Tools for non-developers</h1>
+        <p>This is a demo site to try your browser developer tools skills.</p>
+        <p class="article">
+            <a href="../mobile">Read the explanatory article</a>
+        </p>
+        <details>
+            <summary>More demo pages</summary>
+            <nav>
+                <ul id="menu"></ul>
+            </nav>
+        </details>
+        <ul id="gallery">
+            <li>
+                <a class="full-link" href="img/husky-bed.jpg">
+                    <img
+                        loading="lazy"
+                        src="img/smaller/thumb-husky-bed.jpg"
+                        alt="Husky in bed"
+                    />
+                </a>
+            </li>
+            <li>
+                <a class="full-link" href="img/husky-cuddles.jpg">
+                    <img
+                        loading="lazy"
+                        src="img/smaller/thumb-husky-cuddles.jpg"
+                        alt="Husky being cuddled"
+                    />
+                </a>
+            </li>
+            <li>
+                <a class="full-link" href="img/larry-ball.jpg">
+                    <img
+                        loading="lazy"
+                        src="img/smaller/thumb-larry-ball.jpg"
+                        alt="Cocker Spaniel with ball"
+                    />
+                </a>
+            </li>
+            <li>
+                <a class="full-link" href="img/larry-kitchen.jpg">
+                    <img
+                        loading="lazy"
+                        src="img/smaller/thumb-larry-kitchen.jpg"
+                        alt="Cocker Spaniel in Kitchen"
+                    />
+                </a>
+            </li>
+            <li>
+                <a class="full-link" href="img/larry-raincoat.jpg">
+                    <img
+                        loading="lazy"
+                        src="img/smaller/thumb-larry-raincoat.jpg"
+                        alt="Cocker Spaniel wearing Raincoat"
+                    />
+                </a>
+            </li>
+            <li>
+                <a class="full-link" href="img/larry-sleeping-on-sofa.jpg">
+                    <img
+                        loading="lazy"
+                        src="img/smaller/thumb-larry-sleeping-on-sofa.jpg"
+                        alt="Cocker Spaniel on sofa"
+                    />
+                </a>
+            </li>
+            <li>
+                <a class="full-link" href="img/larry-sleeping.jpg">
+                    <img
+                        loading="lazy"
+                        src="img/smaller/thumb-larry-sleeping.jpg"
+                        alt="Sleeping Cocker spaniel"
+                    />
+                </a>
+            </li>
+            <li>
+                <a class="full-link" href="img/socke-looking.jpg">
+                    <img
+                        loading="lazy"
+                        src="img/smaller/thumb-socke-looking.jpg"
+                        alt="Dog looking at camera"
+                    />
+                </a>
+            </li>
+            <li>
+                <a class="full-link" href="img/socke-with-ball.jpg">
+                    <img
+                        loading="lazy"
+                        src="img/smaller/thumb-socke-with-ball.jpg"
+                        alt="Dog with ball"
+                    />
+                </a>
+            </li>
+            <li>
+                <a class="full-link" href="img/socke.jpg">
+                    <img
+                        loading="lazy"
+                        src="img/smaller/thumb-socke.jpg"
+                        alt="Dog"
+                    />
+                </a>
+            </li>
+        </ul>
+        <div id="display">
+            <img id="fullimage" alt="" />
+        </div>
+        <footer>
+            <p>
+                Written by
+                <a href="https://christianheilmann.com">Chris Heilmann</a>,
+                feedback welcome
+                <a href="https://github.com/codepo8/web-cheatcodes">on GitHub</a>.
+            </p>
+        </footer>
+        <script src="mobile-version.js"></script>
+        <script src="nav.js"></script>
+    </body>
 </html>

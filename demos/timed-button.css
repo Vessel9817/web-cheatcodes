@@ -1,11 +1,11 @@
 button {
     font-size: 25px;
     font-family: inherit;
-    padding: .5em 1em;
+    padding: 0.5em 1em;
     margin: 0 auto;
     max-width: 15em;
     display: inline-block;
-    background: linear-gradient(to top,dodgerblue,white);
+    background: linear-gradient(to top, dodgerblue, white);
     border: 2px solid dodgerblue;
     color: black;
 }

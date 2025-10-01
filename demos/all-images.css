@@ -1,7 +1,7 @@
 #gallery {
     list-style: none;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     margin-top: 2em;
 }
 #gallery img {
@@ -14,7 +14,7 @@
     right: 1em;
     bottom: 6em;
 }
-#display img[src^="img"] {
+#display img[src^='img'] {
     height: 100%;
     width: 100%;
     object-fit: scale-down;

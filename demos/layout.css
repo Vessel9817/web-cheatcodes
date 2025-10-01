@@ -45,9 +45,9 @@ nav li a {
 }
 footer {
     margin-top: 3em;
-    padding: .5em;
-    font-size: .8em;
+    padding: 0.5em;
+    font-size: 0.8em;
 }
 footer a {
-    color:var(--footerlink);
+    color: var(--footerlink);
 }

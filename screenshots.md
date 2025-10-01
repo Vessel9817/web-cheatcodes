@@ -20,7 +20,7 @@ There are two ways to use browser developer tools to create screenshots of just 
 
 1. [Open Developer Tools](https://docs.microsoft.com/microsoft-edge/devtools-guide-chromium/overview#open-devtools) by pressing F12.
 1. Use the [Inspect Tool](https://docs.microsoft.com/microsoft-edge/devtools-guide-chromium/css/inspect) by clicking the pointer icon to pick an element of the page
-    ![The Inspect tool button](screencasts/pointer.png)
+   ![The Inspect tool button](screencasts/pointer.png)
 1. Move your mouse around the document and you will get coloured rectangles outlining the current page element.
 1. Click your mouse and the element will get highlighted in the Elements tool.
 1. Press `Delete` to remove it
@@ -33,7 +33,7 @@ The other way to take a screenshot of what you want to have is to be more surgic
 
 1. [Open Developer Tools](https://docs.microsoft.com/microsoft-edge/devtools-guide-chromium/overview#open-devtools) by pressing F12.
 1. Use the [Inspect Tool](https://docs.microsoft.com/microsoft-edge/devtools-guide-chromium/css/inspect) by clicking the pointer icon to pick an element of the page
-    ![The Inspect tool button](screencasts/pointer.png)
+   ![The Inspect tool button](screencasts/pointer.png)
 1. Move your mouse around the document until the element you want to take a screenshot of is covered by a coloured rectangle.
 1. Click your mouse and the element will get highlighted in the Elements tool.
 1. Select the `...` menu on the line of the highlighted the element (or right-click the highlighted element)
@@ -43,4 +43,4 @@ The other way to take a screenshot of what you want to have is to be more surgic
 
 The "Capture Node Screenshot" trick also works on videos that don't allow you to take screenshots like those on many streaming services.
 
-* [Back to list of all cheat codes](README.md)
+- [Back to list of all cheat codes](README.md)

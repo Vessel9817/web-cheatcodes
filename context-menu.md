@@ -9,9 +9,9 @@ You can try this [in this demo page](https://codepo8.github.io/web-cheatcodes/de
 To remove event handlers and get back the context menu you need to:
 
 1. Go to the [Elements](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/elements-tool/elements-tool) tool and select a high level element (`<html>` for example)
-    ![The Elements tool](screencasts/elements-tool.png)
+   ![The Elements tool](screencasts/elements-tool.png)
 1. Pick `Event Listeners` in the lower panel and look for `contextmenu`
-    ![The Event listeners tool of Elements showing a contextmenu event](screencasts/event-listeners-contextmenu.png)
+   ![The Event listeners tool of Elements showing a contextmenu event](screencasts/event-listeners-contextmenu.png)
 1. Click the triangle to expand the information
 1. Hit the remove button
 
@@ -19,4 +19,4 @@ Here you can see this in action:
 
 ![Screencast of removing the contextmenu event listener](screencasts/context-menu.gif)
 
-* [Back to list of all cheat codes](README.md)
+- [Back to list of all cheat codes](README.md)

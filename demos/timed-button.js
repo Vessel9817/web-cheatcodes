@@ -16,5 +16,5 @@ const intervalId = window.setInterval(step, 1000);
 
 but.addEventListener('click', (e) => {
     e.preventDefault();
-    alert('You clicked the button, you win the game!')
+    alert('You clicked the button, you win the game!');
 });

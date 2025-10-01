@@ -12,14 +12,14 @@ Now, in many cases of sites like these you can use the [Network tool](https://do
 
 1. [Open Developer Tools](https://docs.microsoft.com/microsoft-edge/devtools-guide-chromium/overview#open-devtools) by pressing F12.
 1. If the Network tool isn't avaible yet, press the `+` button, select the `Network` tool and reload the page.
-    ![Opening the network tool](screencasts/open-network.gif)
+   ![Opening the network tool](screencasts/open-network.gif)
 1. The Network Tool now shows all the content that was and is still being loaded
-    ![Network showing all the page resources loading](screencasts/network-video-loading.gif)
+   ![Network showing all the page resources loading](screencasts/network-video-loading.gif)
 1. Click the `Media` option to filter the list to only see movie files
-    ![Filtering the network results by media type](screencasts/network-media-filtering.gif)
+   ![Filtering the network results by media type](screencasts/network-media-filtering.gif)
 1. Find the video you want to see. These are files ending in `.mp4` most of the time
 1. Right-Click the file and select `Open in new tab`
-    ![Opening a network resource in a new tab](screencasts/network-media-open.gif)
+   ![Opening a network resource in a new tab](screencasts/network-media-open.gif)
 1. You get the video using the full controls to play, save and control to your needs.
 
 You can see this in action on the demo page in the following recording:
@@ -28,4 +28,4 @@ You can see this in action on the demo page in the following recording:
 
 You can use the Network tool for a lot more things, for example to [download images](download-images.md).
 
-* [Back to list of all cheat codes](README.md)
+- [Back to list of all cheat codes](README.md)

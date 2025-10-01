@@ -9,9 +9,9 @@ What developers do to achieve this is to define something called an [Event Handl
 To remove event handlers and not have annoying redirects you need to:
 
 1. Go to the [Elements](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/elements-tool/elements-tool) tool and select a high level element (for example `<html>`)
-    ![The Elements tool in the browser developer tools](screencasts/elements-tool.png)
+   ![The Elements tool in the browser developer tools](screencasts/elements-tool.png)
 1. Pick `Event Listeners` in the lower panel and look for `click`
-    ![Inspecting click handlers in the current document](screencasts/event-listener-click.png)
+   ![Inspecting click handlers in the current document](screencasts/event-listener-click.png)
 1. Click the triangle to expand the information
 1. Hit the remove button
 
@@ -21,4 +21,4 @@ You can see this in action here:
 
 Some of the more annoying web products also have `touch`, `keydown`, `keypress` and other events that react to user interaction you might have to remove.
 
-* [Back to list of all cheat codes](README.md)
+- [Back to list of all cheat codes](README.md)

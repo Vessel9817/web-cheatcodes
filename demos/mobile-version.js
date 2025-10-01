@@ -1,7 +1,13 @@
 if (window.matchMedia('(min-width: 1000px) and (pointer: fine)').matches) {
-    const gallery = /** @type {HTMLElement} */ (document.getElementById('gallery'));
-    const fullimage = /** @type {HTMLElement} */ (document.getElementById('fullimage'));
-    const display = /** @type {HTMLElement} */ (document.getElementById('display'));
+    const gallery = /** @type {HTMLElement} */ (
+        document.getElementById('gallery')
+    );
+    const fullimage = /** @type {HTMLElement} */ (
+        document.getElementById('fullimage')
+    );
+    const display = /** @type {HTMLElement} */ (
+        document.getElementById('display')
+    );
     const images = gallery.querySelectorAll('a');
 
     gallery.addEventListener('contextmenu', (e) => {

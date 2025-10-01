@@ -6,7 +6,7 @@ Here's how to get rid of overlays using the browser developer tools. You can try
 
 1. [Open Developer Tools](https://docs.microsoft.com/microsoft-edge/devtools-guide-chromium/overview#open-devtools) by pressing F12.
 1. Use the [Inspect Tool](https://docs.microsoft.com/microsoft-edge/devtools-guide-chromium/css/inspect) by clicking the pointer icon to pick an element of the page
-    ![The Inspect tool button](screencasts/pointer.png)
+   ![The Inspect tool button](screencasts/pointer.png)
 1. Move your mouse around the document until the colour overlay shows that the element covers the whole page
 1. Click your mouse and the element will get highlighted in the Elements tool.
 1. Press `Delete` to remove it
@@ -21,5 +21,4 @@ You can try this on the [different modes demo page](https://codepo8.github.io/we
 
 ![Removing an annoying ad using the Inspect Tool](screencasts/remove-ad.gif)
 
-
-* [Back to list of all cheat codes](README.md)
+- [Back to list of all cheat codes](README.md)

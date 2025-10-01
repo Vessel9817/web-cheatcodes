@@ -1,5 +1,7 @@
 const gallery = /** @type {HTMLElement} */ (document.getElementById('gallery'));
-const fullimage = /** @type {HTMLElement} */ (document.getElementById('fullimage'));
+const fullimage = /** @type {HTMLElement} */ (
+    document.getElementById('fullimage')
+);
 const display = /** @type {HTMLElement} */ (document.getElementById('display'));
 const images = gallery.querySelectorAll('a');
 
