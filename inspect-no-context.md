@@ -12,4 +12,18 @@ The following recording shows that you can inspect the document even when the co
 
 ![Always open Developer tools and use the inspect tool to avoid annoying redirects](screencasts/inspecting-instead-of-context.gif)
 
+However, some websites may be clever enough to use an event listener
+to prevent the use of key combinations, such as those used to open DevTools.
+As shown in [remove-redirects](remove-redirects), you could disable
+the event handler, but you still need DevTools open to do that.
+Luckily, there's a foolproof method:
+
+- In the browser toolbar (where your bookmarks and extensions are),
+  click on the three dots (or three lines, depending on the browser)
+- Click on `More Tools`
+- Click on `Developer Tools`, alternatively known as `Web Developer Tools`
+
+Just like that, you've opened DevTools- and there's nothing the website
+can do to stop you from doing that.
+
 - [Back to list of all cheat codes](README.md)
