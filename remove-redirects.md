@@ -9,11 +9,26 @@ What developers do to achieve this is to define something called an [Event Handl
 To remove event handlers and not have annoying redirects you need to:
 
 1. Go to the [Elements](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/elements-tool/elements-tool) tool and select a high level element (for example `<html>`)
+
    ![The Elements tool in the browser developer tools](screencasts/elements-tool.png)
+
 1. Pick `Event Listeners` in the lower panel and look for `click`
+
    ![Inspecting click handlers in the current document](screencasts/event-listener-click.png)
+
 1. Click the triangle to expand the information
 1. Hit the remove button
+
+In Firefox, this looks a bit different:
+
+1. Go to the Elements panel, the same as shown above
+1. On the HTML element, click on the `event` button
+
+   ![Inspecting click handlers in the current document](screencasts/event-listener-click-firefox.png)
+
+1. Click the triangle to expand the event listener source code
+   and verify that you have the right event listener
+1. Uncheck the box beside the event listener to disable it
 
 You can see this in action here:
 
