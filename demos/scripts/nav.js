@@ -39,9 +39,6 @@ urls.forEach((u) => {
         a.href = u.url;
         a.textContent = u.title;
         li.appendChild(a);
-    } else {
-        li.classList.add('current');
-        li.textContent = u.title;
     }
     nav.appendChild(li);
 });
