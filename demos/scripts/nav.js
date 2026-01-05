@@ -7,20 +7,44 @@
 /** @type {NavButton[]} */
 let urls = [
     {
-        url: 'background-gallery.html',
-        title: 'Bilder als Hintergrund'
+        url: "overlay.html",
+        title: "Remove annoying overlays"
     },
     {
-        url: 'gallery.html',
-        title: 'Bilder im Dokument'
+        url: "screenshot.html",
+        title: "Take screenshots of web content"
     },
     {
-        url: 'image-overlay.html',
-        title: 'Originalbilder finden'
+        url: "inspect.html",
+        title: "Inspect the uninspectable"
     },
     {
-        url: 'video.html',
-        title: 'Einfachere Videos'
+        url: "contextmenu.html",
+        title: "Get back the context menu"
+    },
+    {
+        url: "redirect.html",
+        title: "Avoid unwanted redirects"
+    },
+    {
+        url: "video.html",
+        title: "Get a simpler video player"
+    },
+    {
+        url: "all-images.html",
+        title: "Grab all images on the page"
+    },
+    {
+        url: "mobile-version.html",
+        title: "See the document in a mobile view"
+    },
+    {
+        url: "modes.html",
+        title: "Check the document in different modes"
+    },
+    {
+        url: "timed-button.html",
+        title: "Making timed buttons work without waiting"
     }
 ];
 
