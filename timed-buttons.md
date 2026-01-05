@@ -6,7 +6,9 @@ Here's how to get rid of overlays using the browser developer tools. You can try
 
 1. [Open Developer Tools](https://docs.microsoft.com/microsoft-edge/devtools-guide-chromium/overview#open-devtools) by pressing F12.
 1. Use the [Inspect Tool](https://docs.microsoft.com/microsoft-edge/devtools-guide-chromium/css/inspect) by clicking the pointer icon to pick an element of the page
+
    ![The Inspect tool button](screencasts/pointer.png)
+
 1. Move your mouse around the document until the button in question is covered by a colour overlay
 1. Click your mouse and the element will get highlighted in the Elements tool.
 1. Double click on the `disabled` attribute of the button element

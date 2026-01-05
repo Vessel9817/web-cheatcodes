@@ -30,15 +30,15 @@ let nav = /** @type {Element} */ (document.querySelector('nav ul'));
 urls.forEach((u) => {
     let li = document.createElement('li');
 
-    if (u.url !== current) {
+    if (u.url === current) {
+        li.classList.add('current');
+        li.textContent = u.title;
+    } else {
         let a = document.createElement('a');
 
         a.href = u.url;
         a.textContent = u.title;
         li.appendChild(a);
-    } else {
-        li.classList.add('current');
-        li.textContent = u.title;
     }
     nav.appendChild(li);
 });
